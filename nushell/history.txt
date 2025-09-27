@@ -5,3 +5,39 @@ echo "test" | describe
 echo $env | describe
 $env
 ls
+nvim .
+cd ..
+cd .tmux
+ls
+ls -a
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd .tmux
+ls
+cd ..
+nvim .tmux.conf
+# type this in terminal if tmux is already running<\n>tmux source ~/.tmux.conf
+ls
+cd .tmux/
+ls
+cd plugins
+ls
+cd ..
+nvim .tmux.conf
+mv .tmux.conf .dotfiles/
+ls -a
+ls .*
+ls
+ls -l
+dsalfkdsjfklashh
+ls
+ls -
+ls -a
+source ~/.config/nushell/config.nu
+ls -l
+ls -a | explore
+ls -a
+ps | sort-by mem | last 5
+ls | where name !~ bar
+ls | where name !~ Documents
+ls | where name !~ D*
+ls -a **/*
