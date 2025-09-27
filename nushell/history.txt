@@ -41,3 +41,32 @@ ls | where name !~ bar
 ls | where name !~ Documents
 ls | where name !~ D*
 ls -a **/*
+source ~/.config/nushell/config.nu
+ls
+nvim .tmux.conf
+tmux detach
+mkdir -p ~/.config/tmux/plugins/catppuccin<\n>git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+mkdir ~/.config/tmux/plugins/catppuccin<\n>git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+ls
+cd .tmux
+ls
+cd plugins
+ls
+cd tpm
+ls
+cd ..
+cd .config
+ls
+ls tmux
+cd tmux
+cd plugins/
+ls
+rm -rf catppuccin/
+ls
+cd ..
+ls
+cd ../.tmux
+cd plugins/
+ls
+cd tpm
+ls
