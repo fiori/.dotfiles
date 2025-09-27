@@ -1,0 +1,7 @@
+exit
+ls
+ls -l
+echo "test" | describe
+echo $env | describe
+$env
+ls
