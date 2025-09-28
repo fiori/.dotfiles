@@ -70,3 +70,15 @@ cd plugins/
 ls
 cd tpm
 ls
+cd ~/.config/tmux
+ls
+cd ..
+cd .dotfiles/
+ls
+ls
+cd ..
+stow -t ~/.config/tmux tmux/
+ls 
+cd modules
+ls
+pwd

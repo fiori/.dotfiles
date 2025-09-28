@@ -37,6 +37,26 @@ return {
 			})
 		end
 	},
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      priority = 1000,
+      config = function()
+        require("catppuccin").setup({
+          flavour = "mocha", -- latte, frappe, macchiato, mocha
+          transparent_background = true, -- same as rose-pine disable_background
+          integrations = {
+            cmp = true,
+            gitsigns = true,
+            nvimtree = true,
+            treesitter = true,
+            telescope = true,
+          },
+        })
+
+        ColorMyPencils("catppuccin")
+      end,
+    },
 	{
 		"rose-pine/neovim",
 		name = "rose-pine",
@@ -45,7 +65,7 @@ return {
 				disable_background = true
 			})
 
-			ColorMyPencils()
+			-- ColorMyPencils()
 		end
 	}
 }
