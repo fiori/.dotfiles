@@ -1,5 +1,5 @@
 theme = Catppuccin Mocha
-font-size = 20
+font-size = 16
 font-family = "JetBrains Mono NL"
 mouse-hide-while-typing = true
 window-decoration = true
@@ -10,3 +10,4 @@ keybind = super+j=scroll_page_down
 
 
 #command = /opt/homebrew/bin/nu
+

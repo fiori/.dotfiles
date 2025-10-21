@@ -17,3 +17,5 @@ export NVM_DIR="$HOME/.nvm"
 . "$HOME/.local/bin/env"
 
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
+alias compose='docker compose'
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
